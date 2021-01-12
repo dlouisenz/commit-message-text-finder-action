@@ -1,0 +1,13 @@
+name: 'Commit Message Checker'
+description: 'Check a commit message includes some text'
+inputs:
+  textToFind: # id of input
+    description: 'Text to find'
+    required: true
+    default: ''
+outputs:
+  textFound:
+    description: 'Has text been found'
+runs:
+  using: 'node12'
+  main: 'index.js'
