@@ -1,5 +1,5 @@
-name: 'Commit Message Checker'
-description: 'Check a commit message includes some text'
+name: 'Last Commit Message Text Finder'
+description: 'Check the last commit message includes some text'
 branding:
   icon: git-commit
   color: gray-dark

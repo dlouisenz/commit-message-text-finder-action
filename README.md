@@ -1,6 +1,6 @@
-# Commit Message Text Finder
+# Last Commit Message Text Finder
 
-Finds text in a commit message
+Find text in the last commit message
 
 ## Inputs
 
@@ -15,8 +15,8 @@ Finds text in a commit message
 ## Example usageq
 
 ```
-- name: Commit Message Checker
-  uses: dlouisenz/commit-message-text-finder-action@v1.3
+- name: Last Commit Message Text Finder
+  uses: dlouisenz/commit-message-text-finder-action@v1.4
   with:
     textToFind: 'bump version'
 ```
