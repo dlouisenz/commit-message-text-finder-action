@@ -12,10 +12,11 @@ Finds text in a commit message
 
 ### textFound
 
-## Example usage
+## Example usageq
 
 ```
-uses: actions/commit-message-text-finder-action@v1.1
-with:
+- name: Commit Message Checker
+  uses: dlouisenz/commit-message-text-finder-action@v1.2
+  with:
     textToFind: 'bump version'
 ```
