@@ -1,5 +1,6 @@
 name: 'Commit Message Checker'
 description: 'Check a commit message includes some text'
+icon: 'git-commit'
 inputs:
   textToFind: # id of input
     description: 'Text to find'
