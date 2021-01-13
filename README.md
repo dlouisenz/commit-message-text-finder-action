@@ -16,7 +16,7 @@ Find text in the last commit message
 
 ```
 - name: Last Commit Message Text Finder
-  uses: dlouisenz/commit-message-text-finder-action@v1.4
+  uses: dlouisenz/last-commit-message-text-finder-action@v1.5
   with:
     textToFind: 'bump version'
 ```
