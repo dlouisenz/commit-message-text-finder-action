@@ -16,7 +16,7 @@ Finds text in a commit message
 
 ```
 - name: Commit Message Checker
-  uses: dlouisenz/commit-message-text-finder-action@v1.2
+  uses: dlouisenz/commit-message-text-finder-action@v1.3
   with:
     textToFind: 'bump version'
 ```
